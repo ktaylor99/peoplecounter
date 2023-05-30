@@ -1,5 +1,7 @@
 
 let countEl = document.getElementById("count-el")
+let SaveEl = document.getElementById("save-el")
+
 let count = 0
 
 function increment(){
@@ -7,9 +9,9 @@ function increment(){
    countEl.innerText = count
 }
 
-let SaveEl = document.getElementById("save-el")
-
 function save(){
-    count += " - "
-    SaveEl.innerText += count
+    let peopleCount = count + " - "
+    SaveEl.textContent += peopleCount
+    count = 0
+    countEl.innerText = count
 }
