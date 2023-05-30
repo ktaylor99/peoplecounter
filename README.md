@@ -1,4 +1,5 @@
 # People Counter
-A JavaScript program built following a course provided by Free Code Academy.
+This is a simple JavaScript application built using the guidance of Per Harald Borgen at freeCodeCamp.org. This simple app is fully responsive and can run on mobile devices without issue.
 
-This project is intended to further familiarize myself with JavaScript. 
+## Goal
+My goal with this application was to further familiarize myself with JavaScript and how it interacts with elements on an HTML document. 
